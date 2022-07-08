@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*::before,*::after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: circle;}
+img{vertical-align: top;}
+h1, h2, h3, h4, h5, h6{font-size: inherit;font-weight: 400;}
+
+body{
+    background: url('../img/pattern.jpg')0 0 fixed;
+}
+
+h1{
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 450px 20px 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 0 2px #000, 
+    0 2px 2px #000, 
+    -2px 0 2px #000, 
+    0 -2px 2px #000;
+}
+
+div{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-shadow: 2px 0 2px #000, 
+    0 2px 2px #000, 
+    -2px 0 2px #000, 
+    0 -2px 2px #000;
+    text-align: center;
+    margin: 20px 300px 20px 300px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 3px black;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+img{
+    width: 300px;
+    height: 225px;
+    transition: 0.3s;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px black;
+}
+
+img:hover{
+    transform: scale(1.4);
+}
+
+figcaption{
+    padding: 5px 0 10px 0;
+}
+
+a{
+    display: block;
+    color: rgb(138, 122, 228);
+    text-decoration: underline;
+    padding-top: 5px;
+}
+
+a:hover{
+    color: red;
+}
+
+footer{
+    display: block;
+    padding: 5px;
+}
